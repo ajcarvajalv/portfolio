@@ -148,6 +148,38 @@ textarea {
     color: #6a6a6a;
 }
 
+#adicionales {
+    background-color: #eeeeee;
+}
+
+#adicionales h2 {
+    font-size: 16px;
+    color: #212529;
+}
+
+#adicionales .caja {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 182px;
+
+}
+
+#adicionales .icon {
+    font-size: 80px;
+    color: #ffffff;
+    background-color: #370A6D;
+    border-radius: 20px;
+    height: 182px;
+}
+
+#adicionales ul {
+    list-style-type: none;
+    font-size: 14px;
+    color: #282828;
+    padding: 0;
+}
+
 .footbln {
     color: #ffffff;
 }
