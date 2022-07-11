@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#contacto header .btn, #inicio header .btn {
+#contacto header .btn, #inicio header .btn, #sobre-mi header .btn {
     color: #ffffff;
     background-color: #E20000;
     border: 0;
@@ -13,7 +13,7 @@ body {
     text-decoration: none;
 }
 
-#contacto header .btn:hover, #inicio header .btn:hover {
+#contacto header .btn:hover, #inicio header .btn:hover, #sobre-mi header .btn:hover {
     color: #ffffff;
     background-color: #370a6d;
     border: 0;
@@ -68,7 +68,6 @@ h1 {
 }
 
 h2 {
-    color: #ffffff;
     font-size: 24px;
 }
 
@@ -113,6 +112,11 @@ textarea {
     height: 410px;
 }
 
+.foto img {
+    height: 250px;
+    border-radius: 50%;
+}
+
 .cohete {
     height: 410px;
 }
@@ -149,7 +153,20 @@ textarea {
 }
 
 .stack {
+    color: #ffffff;
     background-color: #E20000;
+}
+
+.experiencia {
+    color: #370A6D;
+}
+
+.formacion {
+    color: #E20000;
+}
+
+.cursos {
+    color: #E20000;
 }
 
 .footbln {
