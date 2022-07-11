@@ -140,6 +140,14 @@ textarea {
     color: #E20000;
 }
 
+#formacion a {
+    color: #6a6a6a;
+}
+
+#formacion a:hover {
+    color: #6a6a6a;
+}
+
 .footbln {
     color: #ffffff;
 }
