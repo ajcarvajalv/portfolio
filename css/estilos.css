@@ -71,6 +71,21 @@ h2 {
     font-size: 24px;
 }
 
+h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+h5 {
+    font-size: 14px;
+    color: #6A6A6A;
+}
+
 p {
     color: #6a6a6a;
 }
@@ -112,6 +127,23 @@ textarea {
     height: 410px;
 }
 
+#stack {
+    color: #ffffff;
+    background-color: #E20000;
+}
+
+#experiencia {
+    color: #370A6D;
+}
+
+#formacion {
+    color: #E20000;
+}
+
+.footbln {
+    color: #ffffff;
+}
+
 .foto img {
     height: 250px;
     border-radius: 50%;
@@ -141,6 +173,32 @@ textarea {
     height: 130px;
 }
 
+.tecnostack {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 182px;
+}
+
+.tecnostack h3 {
+    font-size: 14px;
+    font-weight: 300px;
+    color: #282828;
+}
+
+.tecnostack img {
+    width: 40%;
+}
+
+.gris {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.gris:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
 .link-rojo {
     color: #E20000;
     text-decoration: none;
@@ -150,27 +208,6 @@ textarea {
 .link-rojo:hover {
     color: #E20000;
     text-decoration: none;
-}
-
-.stack {
-    color: #ffffff;
-    background-color: #E20000;
-}
-
-.experiencia {
-    color: #370A6D;
-}
-
-.formacion {
-    color: #E20000;
-}
-
-.cursos {
-    color: #E20000;
-}
-
-.footbln {
-    color: #ffffff;
 }
 
 .footbln a {
