@@ -180,6 +180,14 @@ textarea {
     padding: 0;
 }
 
+.background-degradado {
+    background: rgb(239,47,22);
+    background: -moz-linear-gradient(90deg, rgba(239,47,22,1) 0%, rgba(188,39,19,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(239,47,22,1) 0%, rgba(188,39,19,1) 100%);
+    background: linear-gradient(90deg, rgba(239,47,22,1) 0%, rgba(188,39,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ef2f16",endColorstr="#bc2713",GradientType=1); 
+}
+
 .footbln {
     color: #ffffff;
 }
@@ -200,7 +208,6 @@ textarea {
 .proyecto h2 {
     font-size: 16px;
     color: #ffffff;
-    background-color: #E20000;
     padding: 16px;
 }
 
